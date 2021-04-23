@@ -1,0 +1,43 @@
+.t-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.thank {
+    background-color: rgb(60, 49, 156);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.thank h2 {
+    padding-bottom: 30px;
+}
+
+.thank a {
+    background-color: white;
+    border-radius: 20px;
+    color: rgb(60, 49, 156);
+    font-size: 20px;
+    text-decoration: none;
+    outline: none;
+    padding: 10px 40px 10px 40px;
+}
+
+@media screen and (max-width: 960px) {
+  .thank {
+    width: 60%;
+  }
+}
