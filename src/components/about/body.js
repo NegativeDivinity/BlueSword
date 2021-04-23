@@ -14,9 +14,9 @@ export default function Body() {
           <h1> About Us </h1>
           <p>
             Here at Blue Sword Technologies, we are dedicated to assisting you
-            <br></br>with all your web development needs. Whether you need a
-            company website built from the ground up or just need a web
-            developer on call, we can help!
+            with all your web development needs. Whether you need a company
+            website built from the ground up or just need a web developer on
+            call, we can help!
           </p>
         </div>
         <div className="our-story">
@@ -43,7 +43,7 @@ export default function Body() {
       <div className="meet">
         <div className="meet-header">
           <h1> Meet the Team </h1>
-          <h3> The team for all your web development needs. </h3>
+          <p> The team for all your web development needs. </p>
         </div>
         <div className="cards">
           <div className="card">

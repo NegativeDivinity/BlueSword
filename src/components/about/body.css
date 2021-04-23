@@ -1,99 +1,170 @@
+.about {
+  background-color: rgb(60, 49, 156);
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 70%;
+  margin-left: 10%;
+  padding: 40px 0 40px 0;
+}
+
+.about-section h1 {
+  padding: 0 0 10px 10px;
+  font-size: 50px;
+}
+
+.about-section p {
+  font-size: 30px;
+  text-align: left;
+  padding: 0 10px 0 10px;
+  text-indent: 40px;
+  word-spacing: 5px;
+}
+
+.our-story {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(130, 126, 170);
+  color: white;
+  padding: 3% 0 3% 10%;
+}
+
+.our-story h1 {
+  padding: 0 0 10px 10px;
+  font-size: 50px;
+}
+
+.our-story p {
+  font-size: 30px;
+  text-align: left;
+  padding: 20px 10px 20px 10px;
+  word-spacing: 5px;
+}
+
+.meet-header {
+  text-align: left;
+  padding: 5% 0 3% 0;
+  margin-left: 10%;
+}
+
+.meet-header h1 {
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+
+.meet-header p {
+  font-size: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: solid rgb(60, 49, 156) 2px;
+  border-radius: 10px;
+  margin: 60px;
+  padding: 10px;
+  width: 20%;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 2px 2px;
+}
+
+.card img {
+  width: 90%;
+  margin: 5%;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info h1 {
+  padding-bottom: 5px;
+}
+
+.info h4 {
+  margin-bottom: 30%;
+}
+
+.fab {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
 @media screen and (max-width: 960px) {
   .about-section {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(60, 49, 156);
-    color: white;
+    width: auto;
     padding: 40px 0px 30px 0px;
     margin: 0;
   }
 
   .about-section h1 {
-    padding: 0 0 10px 10px;
+    font-size: 30px;
   }
 
   .about-section p {
-    text-align: left;
-    padding: 0 10px 0 10px;
+    font-size: 15px;
     text-indent: 20px;
-    word-spacing: 5px;
   }
 
   .our-story {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(130, 126, 170);
     padding: 40px 0 30px 0;
-    color: white;
   }
 
   .our-story h1 {
-    padding: 0 0 10px 10px;
+    font-size: 30px;
   }
 
   .our-story p {
     padding: 10px;
-    text-indent: 20px;
+    font-size: 20px;
   }
 
   .meet-header {
     text-align: center;
     padding: 30px 0 20px 0;
+    margin: 0;
   }
 
   .meet-header h1 {
-    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .meet-header p {
+    font-size: 20px;
   }
 
   .cards {
-    display: flex;
     flex-direction: column;
-    align-items: center;
+    width: auto;
   }
 
   .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: solid rgb(60, 49, 156) 2px;
-    border-radius: 10px;
     margin: 20px;
     padding: 10px;
     width: 80%;
-  }
-
-  .card:hover {
-    box-shadow: 1px 1px 2px 2px;
-  }
-
-  .card img {
-    width: 90%;
-    margin: 5%;
-    border-radius: 10px;
-  }
-
-  .info {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .info h1 {
-    padding-bottom: 5px;
-  }
-
-  .info h4 {
-    margin-bottom: 30%;
-  }
-
-  .fab {
-    font-size: 40px;
-    padding: 15px;
-  }
-
-  .fab:hover {
-    opacity: 0.7;
   }
 }
