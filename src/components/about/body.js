@@ -56,13 +56,13 @@ export default function Body() {
             </div>
             <div className="social">
               <Link to="https://github.com/NegativeDivinity">
-                <i class="fab fa-github-square"></i>
+                <i className="fab fa-github-square"></i>
               </Link>
               <Link to="https://www.facebook.com/profile.php?id=100039434316371">
-                <i class="fab fa-facebook-square"></i>
+                <i className="fab fa-facebook-square"></i>
               </Link>
               <Link to="www.linkedin.com/in/benjamin-anderson-a777821b9">
-                <i class="fab fa-linkedin"></i>
+                <i className="fab fa-linkedin"></i>
               </Link>
             </div>
           </div>
@@ -76,13 +76,13 @@ export default function Body() {
             </div>
             <div className="social">
               <Link to="https://github.com/parttime8901">
-                <i class="fab fa-github-square"></i>
+                <i className="fab fa-github-square"></i>
               </Link>
               <Link to="https://www.facebook.com/bob.lucky.313">
-                <i class="fab fa-facebook-square"></i>
+                <i className="fab fa-facebook-square"></i>
               </Link>
               <Link to="https://www.linkedin.com/in/michael-bower-7624081b7/">
-                <i class="fab fa-linkedin"></i>
+                <i className="fab fa-linkedin"></i>
               </Link>
             </div>
           </div>
@@ -96,13 +96,13 @@ export default function Body() {
             </div>
             <div className="social">
               <Link to="">
-                <i class="fab fa-github-square"></i>
+                <i className="fab fa-github-square"></i>
               </Link>
               <Link to="https://www.facebook.com/profile.php?id=100018081064576">
-                <i class="fab fa-facebook-square"></i>
+                <i className="fab fa-facebook-square"></i>
               </Link>
               <Link to="">
-                <i class="fab fa-linkedin"></i>
+                <i className="fab fa-linkedin"></i>
               </Link>
             </div>
           </div>
