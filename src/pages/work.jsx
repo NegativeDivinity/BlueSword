@@ -1,12 +1,16 @@
-import React from 'react';
+import React from "react";
 
 // components
-import Nav from '../components/nav/nav';
+import Nav from "../components/nav/nav";
 
-export default function Work () {
+import Footer from "../components/footer/footer";
+
+export default function Work() {
   return (
     <div>
       <Nav />
+
+      <Footer />
     </div>
-  )
+  );
 }
