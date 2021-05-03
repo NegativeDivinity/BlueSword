@@ -15,7 +15,7 @@ export default function Body () {
       </div>
       <div className = 'work-cards'>
         <div className = 'work-card'>
-          <Link to = 'https://calhounplumbingcompany.com/'>
+          <a href = 'https://calhounplumbingcompany.com/'>
             <img src = {Plum} alt = 'Web design for Calhoun plumbing service' />
             <div className = 'card-detail'>
               <h3>Calhoun's Plumbing</h3>
@@ -32,10 +32,10 @@ export default function Body () {
                 </p>
               </div>
             </div>
-          </Link>
+          </a>
         </div>
         <div className = 'work-card'>
-          <Link to = 'https://forestlakemotel.biz/'>
+          <a href = 'https://forestlakemotel.biz/'>
             <img src = {Forest} alt = 'Web design for Calhoun plumbing service' />
             <div className = 'card-detail'>
               <h3>Forest Lake Motel</h3>
@@ -52,10 +52,10 @@ export default function Body () {
                 </p>
               </div>
             </div>
-          </Link>
+          </a>
         </div>
         <div className = 'work-card'>
-          <Link to = 'https://northcountrystorage.com/'>
+          <a href = 'https://northcountrystorage.com/'>
             <img src = {Storage} alt = 'Web design for Calhoun plumbing service' />
             <div className = 'card-detail'>
               <h3>North Country Storage</h3>
@@ -72,7 +72,7 @@ export default function Body () {
                 </p>
               </div>
             </div>
-          </Link>
+          </a>
         </div>
       </div>
     </div>
