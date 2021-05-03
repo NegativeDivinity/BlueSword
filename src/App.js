@@ -27,6 +27,7 @@ export default function App() {
           <Route exact path='/mike' component={Mike} />
           <Route exact path='/ethan' component={Ethan} />
           <Route exact path='/error' component={ErrorPage} />
+          <Redirect to = '/error' />
         </Switch>
       </Router>
     </div>

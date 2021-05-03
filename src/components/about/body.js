@@ -1,6 +1,5 @@
 import React from "react";
 import "./body.css";
-import { Link } from "react-router-dom";
 
 import Ben from "../assets/ben.jpg";
 import Mike from "../assets/mike.jpg";
@@ -55,15 +54,15 @@ export default function Body() {
               <h4>CEO & Lead Web Developer</h4>
             </div>
             <div className="social">
-              <Link to="https://github.com/NegativeDivinity">
+              <a href="https://github.com/NegativeDivinity">
                 <i className="fab fa-github-square"></i>
-              </Link>
-              <Link to="https://www.facebook.com/profile.php?id=100039434316371">
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100039434316371">
                 <i className="fab fa-facebook-square"></i>
-              </Link>
-              <Link to="www.linkedin.com/in/benjamin-anderson-a777821b9">
+              </a>
+              <a href="www.linkedin.com/in/benjamin-anderson-a777821b9">
                 <i className="fab fa-linkedin"></i>
-              </Link>
+              </a>
             </div>
           </div>
           <div className="card">
@@ -75,15 +74,15 @@ export default function Body() {
               <h4>CTO & Web Developer</h4>
             </div>
             <div className="social">
-              <Link to="https://github.com/parttime8901">
+              <a href="https://github.com/parttime8901">
                 <i className="fab fa-github-square"></i>
-              </Link>
-              <Link to="https://www.facebook.com/bob.lucky.313">
+              </a>
+              <a href="https://www.facebook.com/bob.lucky.313">
                 <i className="fab fa-facebook-square"></i>
-              </Link>
-              <Link to="https://www.linkedin.com/in/michael-bower-7624081b7/">
+              </a>
+              <a href="https://www.linkedin.com/in/michael-bower-7624081b7/">
                 <i className="fab fa-linkedin"></i>
-              </Link>
+              </a>
             </div>
           </div>
           <div className="card">
@@ -95,15 +94,15 @@ export default function Body() {
               <h4>Computer Hardware Specialist</h4>
             </div>
             <div className="social">
-              <Link to="">
+              <a href="">
                 <i className="fab fa-github-square"></i>
-              </Link>
-              <Link to="https://www.facebook.com/profile.php?id=100018081064576">
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100018081064576">
                 <i className="fab fa-facebook-square"></i>
-              </Link>
-              <Link to="">
+              </a>
+              <a href="">
                 <i className="fab fa-linkedin"></i>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
