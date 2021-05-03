@@ -60,7 +60,7 @@ export default function Body() {
               <a href="https://www.facebook.com/profile.php?id=100039434316371">
                 <i className="fab fa-facebook-square"></i>
               </a>
-              <a href="www.linkedin.com/in/benjamin-anderson-a777821b9">
+              <a href="https://www.linkedin.com/in/benjamin-anderson-a777821b9">
                 <i className="fab fa-linkedin"></i>
               </a>
             </div>
