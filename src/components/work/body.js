@@ -1,6 +1,8 @@
 import React from 'react';
 import './body.css';
 import Plum from '../assets/plum.svg';
+import Forest from '../assets/logo.png';
+import Storage from '../assets/icon.png';
 import { Link } from 'react-router-dom';
 
 export default function Body () {
@@ -34,7 +36,7 @@ export default function Body () {
         </div>
         <div className = 'work-card'>
           <Link to = 'https://forestlakemotel.biz/'>
-            <img src = {Plum} alt = 'Web design for Calhoun plumbing service' />
+            <img src = {Forest} alt = 'Web design for Calhoun plumbing service' />
             <div className = 'card-detail'>
               <h3>Forest Lake Motel</h3>
               <div className = 'status'>
@@ -54,7 +56,7 @@ export default function Body () {
         </div>
         <div className = 'work-card'>
           <Link to = 'https://northcountrystorage.com/'>
-            <img src = {Plum} alt = 'Web design for Calhoun plumbing service' />
+            <img src = {Storage} alt = 'Web design for Calhoun plumbing service' />
             <div className = 'card-detail'>
               <h3>North Country Storage</h3>
               <div className = 'status'>

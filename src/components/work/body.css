@@ -1,3 +1,70 @@
+.work-header {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 40px;
+}
+
+.work-cards {
+  display: flex;
+  width: 90%;
+  margin: 5% 0 5% 5%;
+  justify-content: space-between;
+}
+
+.work-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border-radius: 10px;
+  background-color: rgb(60,49,156,0.20);
+}
+
+.work-card:hover {
+  background-color: rgb(60,49,156,.7);
+}
+
+.work-card a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-card img {
+  width: 50%;
+  padding: 15px 0 15px 0;
+}
+
+.card-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-detail h3 {
+  font-size: 30px;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.status p {
+  padding-left: 10px;
+}
+
+.job {
+  text-align: center;
+  font-size: 25px;
+}
+
+
 @media screen and (max-width: 960px) {
 
   .work-header {
@@ -6,19 +73,26 @@
     padding: 20px;
   }
 
+  .work-cards {
+    flex-direction: column;
+  }
+
   .work-card {
     display: flex;
     align-items: center;
     width: 90%;
     margin: 5% 0 5% 5%;
-    border: solid black 1px;
     border-radius: 10px;
-    background-color: rgb(60, 49, 156);
+    background-color: rgb(60,49,156,0.20);
+  }
+
+  .work-card:hover {
+    background-color: rgb(60,49,156,.7);
   }
 
   .work-card a {
     text-decoration: none;
-    color: white;
+    color: black;
   }
 
   .work-card img {
@@ -34,12 +108,12 @@
   }
 
   .card-detail h3 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .status {
     display: flex;
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 10px;
   }
 
@@ -51,7 +125,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
   }
 
 }
