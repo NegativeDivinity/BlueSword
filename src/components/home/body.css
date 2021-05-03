@@ -173,13 +173,13 @@
   }
 
   .pop.active {
-    height: 105%;
+    height: 90%;
     width: 55%;
     transform: translate(-50%, -50%);
   }
 
   .pop h1 {
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 10px;
   }
 
