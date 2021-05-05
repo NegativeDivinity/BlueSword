@@ -42,7 +42,7 @@ export default function Body() {
       <div className="meet">
         <div className="meet-header">
           <h1> Meet the Team </h1>
-          <p> The team for all your web development needs. </p>
+          <p> The team for all your technology needs. </p>
         </div>
         <div className="cards">
           <div className="card">
