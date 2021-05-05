@@ -28,13 +28,13 @@ export default function Footer() {
         <div className="page-links">
           <ul>
             <li>
-              <Link to="/about">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/contact">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/financing">Work</Link>
+              <Link to="/work">Work</Link>
             </li>
           </ul>
         </div>
