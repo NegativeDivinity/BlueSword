@@ -24,9 +24,7 @@ class Body extends Component {
             <input type="hidden" name="form-name" value="contact" />
 
             <h1>Contact Us!</h1>
-            <h3>
-              Fill out the form and we will get back to you as soon as possible.
-            </h3>
+            <h3>Fill out the form or contact us on social media.</h3>
             <div className="name width">
               <input
                 required
@@ -56,6 +54,14 @@ class Body extends Component {
               <button type="submit">
                 Submit <i className="fas fa-arrow-right"></i>
               </button>
+            </div>
+            <div className="social">
+              <a href="https://www.facebook.com/BlueSwordTech">
+                <i className="fa-icon fab fa-facebook-square"></i>
+              </a>
+              <a href="https://www.instagram.com/blueswordtech/">
+                <i className="fa-icon fab fa-instagram-square"></i>
+              </a>
             </div>
           </form>
         </div>

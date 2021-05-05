@@ -51,7 +51,7 @@ export default function Body() {
             </div>
             <div className="info">
               <h1>Ben Anderson</h1>
-              <h4>CEO & Lead Web Developer</h4>
+              <h4>CEO & Web Developer</h4>
             </div>
             <div className="social">
               <a href="https://github.com/NegativeDivinity">
@@ -71,7 +71,7 @@ export default function Body() {
             </div>
             <div className="info">
               <h1>Mike Bower</h1>
-              <h4>CTO & Web Developer</h4>
+              <h4>CTO & Network Specialist</h4>
             </div>
             <div className="social">
               <a href="https://github.com/parttime8901">
