@@ -4,6 +4,7 @@ import "./body.css";
 import Ben from "../assets/ben.jpg";
 import Mike from "../assets/mike.jpg";
 import Ethan from "../assets/ethan.jpg";
+import Skylar from "../assets/skylar.jpg";
 
 export default function Body() {
   return (
@@ -98,6 +99,26 @@ export default function Body() {
                 <i className="fab fa-github-square"></i>
               </a>
               <a href="https://www.facebook.com/profile.php?id=100018081064576">
+                <i className="fab fa-facebook-square"></i>
+              </a>
+              <a href="">
+                <i className="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+          <div className="card">
+            <div className="image">
+              <img src={Skylar} alt="Sales" />
+            </div>
+            <div className="info">
+              <h1>Skylar Scott</h1>
+              <h4>Head of Sales</h4>
+            </div>
+            <div className="social">
+              <a href="">
+                <i className="fab fa-github-square"></i>
+              </a>
+              <a href="https://www.facebook.com/skylar.scott.5076">
                 <i className="fab fa-facebook-square"></i>
               </a>
               <a href="">
