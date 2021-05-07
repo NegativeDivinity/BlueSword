@@ -68,11 +68,11 @@ export default function Body() {
           </div>
           <div className="card">
             <div className="image">
-              <img src={Mike} alt="CTO and Web Developer" />
+              <img src={Mike} alt="CTO and Network specialist" />
             </div>
             <div className="info">
               <h1>Mike Bower</h1>
-              <h4>CTO & Network Specialist</h4>
+              <h4>Network Specialist</h4>
             </div>
             <div className="social">
               <a href="https://github.com/parttime8901">
@@ -92,7 +92,7 @@ export default function Body() {
             </div>
             <div className="info">
               <h1>Ethan James</h1>
-              <h4>Computer Hardware Specialist</h4>
+              <h4>Hardware Specialist</h4>
             </div>
             <div className="social">
               <a href="">
