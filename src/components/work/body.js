@@ -3,6 +3,7 @@ import "./body.css";
 import Plum from "../assets/plum.svg";
 import Forest from "../assets/logo.png";
 import Storage from "../assets/icon.png";
+import Art from "../assets/logo.JPG";
 import { Link } from "react-router-dom";
 
 export default function Body() {
@@ -69,7 +70,7 @@ export default function Body() {
         </div>
         <div className="work-card">
           <a href="https://onlyshittyart.com/">
-            <img src={Storage} alt="Web design for Artist of Only shitty art" />
+            <img src={Art} alt="Web design for Artist of Only shitty art" />
             <div className="card-detail">
               <h3>Only Shitty Art</h3>
               <div className="status">
