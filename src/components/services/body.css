@@ -1,0 +1,125 @@
+.service-head {
+  text-align: center;
+  padding: 60px;
+  font-size: 40px;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-card {
+  background-color: transparent;
+  width: 40%;
+  margin: 2% 0 10% 2%;
+  height: 300px;
+  perspective: 500px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This 
+  container is needed to position the front and back side */
+
+.service-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal 
+  flip when you move the mouse over the flip box container */
+.service-card:hover .service-card-inner {
+  transform: rotateX(-180deg);
+}
+
+/* Position the front and back side */
+.service-card-front,
+.service-card-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(60, 49, 156);
+  border-radius: 20px;
+  position: absolute;
+  color: white;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the back side */
+.service-card-back {
+  transform: rotateY(180deg);
+}
+
+.service-description {
+  transform: rotate(180deg);
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .service-head {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .service-card {
+    background-color: transparent;
+    width: 90%;
+    margin: 0 0 10% 5%;
+    height: 300px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+
+  /* This 
+    container is needed to position the front and back side */
+
+  .service-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  /* Do an horizontal 
+    flip when you move the mouse over the flip box container */
+  .service-card:hover .service-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  /* Position the front and back side */
+  .service-card-front,
+  .service-card-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(60, 49, 156);
+    border-radius: 20px;
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+
+  /* Style the back side */
+  .service-card-back {
+    transform: rotateY(180deg);
+  }
+
+  .service-description {
+    transform: none;
+    padding-bottom: 20px;
+  }
+}

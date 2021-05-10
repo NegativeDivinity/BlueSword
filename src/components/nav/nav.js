@@ -24,6 +24,7 @@ class Nav extends Component {
           <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
+            <Link to="/services">Services</Link>
             <Link to="/work">Work</Link>
           </ul>
         </nav>
