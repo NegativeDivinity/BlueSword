@@ -12,7 +12,7 @@ class Body extends Component {
     return (
       <div className="h-container">
         <div className={this.state.clicked ? "mid-div dis" : "mid-div"}>
-          <h1>Need help with your website, network, or ccomputers?</h1>
+          <h1>Need help with your website, network, or computers?</h1>
           <i className="fas fa-arrow-down"></i>
           <button onClick={this.handleClick}>Contact Us!</button>
         </div>
